@@ -1,0 +1,128 @@
+// --color-secondary: #222;
+// --color-primary : #eb2f64;
+// --color-primary-light : #FF3366;
+// --color-primary-dark : #BA265D;
+
+// --color-grey-light-100: #faf9f9;
+// --color-grey-light-200: #f4f2f2;
+// --color-grey-light-300: #f0eeee;
+// --color-grey-light-400: #ccc;
+
+// --color-grey-dark-100: #333;
+// --color-grey-dark-200: #777;
+// --color-grey-dark-300: #999;
+
+.container{
+  max-width: 120rem;
+  margin: 8rem auto;
+  min-height: 50rem;
+  box-shadow: 1rem 1rem 30rem rgb(0, 0,0, .2);
+  
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  // @media only screen and (max-width: $bp-large){
+  // }
+}
+
+.header{
+  background-color: var(--color-grey-light-100);
+  color: var(--color-grey-light-100);
+  border-bottom: var(--line);
+  padding: 1rem 0;
+  height: 7rem;
+  font-size: 1.4rem;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  @media only screen and (max-width: $bp-smallest) {
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 11rem;
+  }
+  
+}
+
+.content{
+  display: flex;
+  
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
+}
+
+.sidebar{
+  background-color: var(--color-grey-dark-100);
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.hotel-view{
+  
+  background-color: var(--color-grey-light-200);
+  flex:1;
+  
+}
+
+.detail{
+  display: flex;
+  font-size: 1.4rem;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-100);
+  border-bottom: var(--line);
+  
+  @media only screen and (max-width: $bp-medium) {
+    padding: 3rem;;
+  }
+  
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
+}
+
+.description{
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+  
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2.2rem;
+    margin-right: 3rem;
+  }
+  
+  @media only screen and (max-width: $bp-small) {
+    margin-right:0;
+    margin-bottom: 4.5rem;
+    
+  }
+}
+
+.user-reviews{
+  // background-color: yellowgreen;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  @media only screen and (max-width: $bp-small) {
+    
+  }
+}
+
+
+
+
+
+
+
+
