@@ -2,7 +2,8 @@
   "name": "natours",
   "version": "1.0.0",
   "description": "Landing page by sass",
-  "main": "index.js",  "scripts": {
+  "main": "index.js",
+ "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "mahmoud fouad",
