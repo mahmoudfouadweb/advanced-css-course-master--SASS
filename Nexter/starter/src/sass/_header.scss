@@ -1,6 +1,22 @@
 .header{
   background-color: $color-grey-dark-1;
-  
   grid-column: full-start/ col-end 6;
-  grid-row: 1/2;
+  background-image: linear-gradient(rgba($color-secondary, .93), rgba($color-secondary, .93)), url(../img/hero.jpeg);
+  background-size: cover;
+  
+  &__logo {
+    height: 3rem;
+  }
+  
+  &__seenon-text {
+    
+  }
+  
+  &__seenon-logos{
+    
+    img{
+      // width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
 }
