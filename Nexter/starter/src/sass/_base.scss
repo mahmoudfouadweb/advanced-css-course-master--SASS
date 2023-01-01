@@ -14,6 +14,9 @@ $color-grey-dark-2: #6D5D4B;
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
+// Shadow VARIABLES
+$img-shadow: 0 2rem 5rem rgba(#000, .1);
+
 *, *::after, *::before{
   margin: 0;
   padding: 0;

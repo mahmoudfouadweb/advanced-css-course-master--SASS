@@ -1,6 +1,16 @@
-.homes{
-  background-color: $color-secondary;
-  
+.homes {
   grid-column: center-start / center-end;
-  grid-row: 4/5;
+  margin: 15rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 7rem;
+}
+
+.home {
+  background-color: $color-grey-light-1;
+  
+  &__img{
+    width: 100%;
+  }
 }
