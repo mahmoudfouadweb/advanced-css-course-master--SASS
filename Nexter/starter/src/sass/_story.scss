@@ -3,9 +3,7 @@
     background-color: $color-primary;
     background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url(../img/back.jpg);
     
-    
     grid-column: full-start/ col-end 4;
-    grid-row: 3/4;
     
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -34,7 +32,6 @@
   
   &__content{
     background-color: $color-grey-light-1;
-    
     grid-column: col-start 5/ full-end;
     padding: 6vw 6vw;
     padding-right: 2vw;
@@ -43,6 +40,7 @@
     // flex-direction: column;
     // justify-content: center;
     // align-items: flex-start;
+    
     display: grid;
     align-content: center;
     justify-items: start;
