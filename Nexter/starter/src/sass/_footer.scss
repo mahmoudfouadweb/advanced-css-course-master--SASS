@@ -35,4 +35,8 @@
     text-align: center;
     color: #aaa;
   }
+  
+  @media only screen and (max-width: $bp-small){
+    padding: 2rem;
+  }
 }
