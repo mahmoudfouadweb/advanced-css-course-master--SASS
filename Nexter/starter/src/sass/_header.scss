@@ -17,6 +17,10 @@
     grid-column: full-start / -1;
   }
   
+  @media only screen and (max-width: $bp-small) {
+    padding: 4;
+  }
+  
   &__logo {
     height: 3rem;
     justify-self: center;
