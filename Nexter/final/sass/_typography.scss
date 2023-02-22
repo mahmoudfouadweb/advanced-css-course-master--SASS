@@ -50,6 +50,10 @@
     &:hover {
         background-color: $color-primary-dark;
     }
+    
+    &__footer{
+        margin-top: 2rem;
+    }
 }
 
 .mb-sm { margin-bottom: 2rem; }
