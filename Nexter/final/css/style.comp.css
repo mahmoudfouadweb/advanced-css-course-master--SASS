@@ -73,6 +73,8 @@ body {
   transition: all .2s; }
   .btn:hover {
     background-color: #B28451; }
+  .btn__footer {
+    margin-top: 2rem; }
 
 .mb-sm {
   margin-bottom: 2rem; }
@@ -355,8 +357,9 @@ body {
   background-color: #f9f7f6;
   grid-column: full-start / full-end;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(7, 5vw);
+  /*grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 5vw);*/
+  grid-template: repeat(7, 5vw)/repeat(8, 1fr);
   grid-gap: 1.5rem;
   padding: 1.5rem; }
   .gallery__item--1 {
