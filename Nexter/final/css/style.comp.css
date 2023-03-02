@@ -24,11 +24,11 @@ body {
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
   @media only screen and (max-width: 62.5em) {
     .container {
-      grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
+      grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
       grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; } }
   @media only screen and (max-width: 50em) {
     .container {
-      grid-template-rows: 6rem calc(100vh - 6rem); } }
+      grid-template-rows: 60vh calc(100vh - 60vh); } }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Josefin Sans", sans-serif;
@@ -129,7 +129,7 @@ body {
 
 .header {
   background-color: #54483A;
-  grid-column: full-start / col-end 6;
+  grid-column: 1 / col-end 6;
   background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
   background-size: cover;
   background-position: center;
@@ -147,7 +147,8 @@ body {
     .header {
       padding: 5rem; } }
   .header__logo {
-    height: 3rem;
+    height: 14rem;
+    border-radius: 50%;
     justify-self: center; }
   .header__btn {
     align-self: start;
