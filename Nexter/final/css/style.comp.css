@@ -13,7 +13,7 @@ html {
       font-size: 50%; } }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Noto Sans Arabic", sans-serif;
   color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6; }
@@ -31,7 +31,7 @@ body {
       grid-template-rows: 60vh calc(100vh - 60vh); } }
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Noto Sans Arabic", sans-serif;
   font-weight: 400; }
 
 .heading-1 {
@@ -65,7 +65,7 @@ body {
   color: #fff;
   border: none;
   border-radius: 0;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Noto Sans Arabic", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
   padding: 1.8rem 3rem;
@@ -202,6 +202,7 @@ body {
         grid-template-columns: min-content max-content; } }
   .realtors__img {
     width: 7rem;
+    height: auto;
     border-radius: 50%;
     display: block; }
   .realtors__sold {
@@ -331,7 +332,7 @@ body {
     align-self: end;
     z-index: 3;
     width: 80%;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
     font-size: 1.6rem;
     text-align: center;
     padding: 1.25rem;
@@ -426,7 +427,7 @@ body {
     font-size: 1.4rem;
     color: #fff;
     text-decoration: none;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
     text-transform: uppercase;
     text-align: center;
     padding: 1.5rem;

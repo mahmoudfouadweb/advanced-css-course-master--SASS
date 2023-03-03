@@ -11,8 +11,8 @@ $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
 // FONT VARIABLES
-$font-primary: 'Nunito', sans-serif;
-$font-display: 'Josefin Sans', sans-serif;
+$font-primary: 'Noto Sans Arabic', sans-serif;
+$font-display: 'Noto Sans Arabic', sans-serif;
 
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em;   // 1200px
@@ -42,6 +42,7 @@ body {
     color: $color-grey-dark-2;
     font-weight: 300;
     line-height: 1.6;
+    $font-display: swap;
 }
 
 .container {
