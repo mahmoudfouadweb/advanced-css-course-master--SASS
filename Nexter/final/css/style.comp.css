@@ -88,6 +88,10 @@ body {
 .mb-hg {
   margin-bottom: 8rem; }
 
+a {
+  text-decoration: none;
+  color: #f9f7f6; }
+
 .sidebar {
   background-color: #c69963;
   grid-column: sidebar-start / sidebar-end;
